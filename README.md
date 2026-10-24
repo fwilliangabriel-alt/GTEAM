@@ -1,5 +1,7 @@
 # GTEAM — site da consultoria
 
+A versão atual prioriza o celular: foto de abertura quadrada, retrato do fundador em cores e cards verticais de planos inspirados no PDF. Confira [a revisão mobile e as capturas atualizadas](docs/REVISAO-MOBILE.md).
+
 Projeto estático: HTML, CSS, JavaScript e mídias locais. Não exige Node, framework, build, conta externa ou instalação de dependências para funcionar.
 
 ## Executar

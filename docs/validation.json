@@ -56,11 +56,11 @@
   "no_js": "passed",
   "reduced_motion": "passed",
   "slow_network": {
-    "htmlBytes": 48428,
-    "loadMs": 2621.100000000093,
+    "htmlBytes": 48050,
+    "loadMs": 3371.5,
     "videoRequests": 0,
-    "transferBytes": 434408,
-    "h1Visible": true
+    "transferBytes": 583666,
+    "h1Visible": false
   },
   "js_errors": [],
   "http_failures": []

@@ -1,7 +1,8 @@
+import os
 from playwright.sync_api import sync_playwright
 from pathlib import Path
 import json,time
-root=Path(__file__).resolve().parents[1];out=root/'docs';results={};base='http://127.0.0.1:8000/'
+root=Path(__file__).resolve().parents[1];out=root/'docs';results={};base=os.environ.get('GTEAM_BASE_URL','http://127.0.0.1:8000/')
 with sync_playwright() as p:
  b=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox'])
  errors=[];failures=[]
@@ -52,7 +53,7 @@ with sync_playwright() as p:
    page.get_by_role('button',name='Em movimento',exact=True).click();page.locator('video').first.scroll_into_view_if_needed();page.wait_for_timeout(500);assert page.locator('video').first.evaluate('(v)=>v.paused')
   results[mode]='passed';context.close()
  # Simulate a slow connection, without loading all gallery media.
- context=b.new_context();page=context.new_page();cdp=context.new_cdp_session(page);cdp.send('Network.enable');cdp.send('Network.emulateNetworkConditions',{'offline':False,'latency':150,'downloadThroughput':200000,'uploadThroughput':100000})
+ context=b.new_context(viewport={'width':390,'height':844},is_mobile=True,has_touch=True);page=context.new_page();cdp=context.new_cdp_session(page);cdp.send('Network.enable');cdp.send('Network.emulateNetworkConditions',{'offline':False,'latency':150,'downloadThroughput':200000,'uploadThroughput':100000})
  page.goto(base,wait_until='load');page.wait_for_timeout(1000)
  results['slow_network']=page.evaluate('''()=>({htmlBytes:performance.getEntriesByType('navigation')[0].decodedBodySize,loadMs:performance.getEntriesByType('navigation')[0].loadEventEnd,videoRequests:performance.getEntriesByType('resource').filter(r=>r.name.endsWith('.mp4')).length,transferBytes:performance.getEntriesByType('resource').reduce((n,r)=>n+r.transferSize,0),h1Visible:document.querySelector('h1').getBoundingClientRect().top<innerHeight})''')
  assert results['slow_network']['videoRequests']==0

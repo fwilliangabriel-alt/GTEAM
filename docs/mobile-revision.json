@@ -1,0 +1,52 @@
+{
+  "320": {
+    "width": 288,
+    "height": 288,
+    "top": 162.296875,
+    "corners": "0px",
+    "portraitFilter": "none",
+    "source": "http://127.0.0.1:8002/assets/media-10-640.webp",
+    "planDirection": "column",
+    "overflow": false,
+    "contactVisible": true
+  },
+  "375": {
+    "width": 335,
+    "height": 335,
+    "top": 162.296875,
+    "corners": "0px",
+    "portraitFilter": "none",
+    "source": "http://127.0.0.1:8002/assets/media-10-640.webp",
+    "planDirection": "column",
+    "overflow": false,
+    "contactVisible": true
+  },
+  "390": {
+    "width": 350,
+    "height": 350,
+    "top": 162.296875,
+    "corners": "0px",
+    "portraitFilter": "none",
+    "source": "http://127.0.0.1:8002/assets/media-10-640.webp",
+    "planDirection": "column",
+    "overflow": false,
+    "contactVisible": true
+  },
+  "430": {
+    "width": 390,
+    "height": 390,
+    "top": 162.296875,
+    "corners": "0px",
+    "portraitFilter": "none",
+    "source": "http://127.0.0.1:8002/assets/media-10-640.webp",
+    "planDirection": "column",
+    "overflow": false,
+    "contactVisible": false
+  },
+  "mobile_slow_network": {
+    "htmlBytes": 48050,
+    "loadMs": 2787,
+    "videoRequests": 0,
+    "h1Visible": true
+  }
+}
