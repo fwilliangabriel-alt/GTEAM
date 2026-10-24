@@ -1,0 +1,67 @@
+{
+  "320": {
+    "overflow": false,
+    "mainWidth": 320,
+    "brokenImages": 0,
+    "headingOverflow": false
+  },
+  "375": {
+    "overflow": false,
+    "mainWidth": 375,
+    "brokenImages": 0,
+    "headingOverflow": false
+  },
+  "390": {
+    "overflow": false,
+    "mainWidth": 390,
+    "brokenImages": 0,
+    "headingOverflow": false
+  },
+  "video": {
+    "played": true,
+    "paused": true,
+    "readyState": 4
+  },
+  "interactions": "filters, image dialog/Escape, cycles/mouse/keyboard, native select, FAQ/mouse/keyboard, privacy, gallery keyboard and touch gesture dispatched",
+  "430": {
+    "overflow": false,
+    "mainWidth": 430,
+    "brokenImages": 0,
+    "headingOverflow": false
+  },
+  "768": {
+    "overflow": false,
+    "mainWidth": 768,
+    "brokenImages": 0,
+    "headingOverflow": false
+  },
+  "1024": {
+    "overflow": false,
+    "mainWidth": 1024,
+    "brokenImages": 0,
+    "headingOverflow": false
+  },
+  "1440": {
+    "overflow": false,
+    "mainWidth": 1440,
+    "brokenImages": 0,
+    "headingOverflow": false
+  },
+  "1920": {
+    "overflow": false,
+    "mainWidth": 1920,
+    "brokenImages": 0,
+    "headingOverflow": false
+  },
+  "no_js": "passed",
+  "reduced_motion": "passed",
+  "slow_network": {
+    "htmlBytes": 48428,
+    "loadMs": 2621.100000000093,
+    "videoRequests": 0,
+    "transferBytes": 434408,
+    "h1Visible": true
+  },
+  "js_errors": [],
+  "http_failures": []
+}

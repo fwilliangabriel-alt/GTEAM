@@ -1,0 +1,68 @@
+{
+  "lab_metrics": {
+    "cls": 0,
+    "lcp": 344
+  },
+  "videos": [
+    {
+      "src": "assets/media-24.mp4",
+      "played": true,
+      "paused": true,
+      "duration": 22.916667
+    },
+    {
+      "src": "assets/media-26.mp4",
+      "played": true,
+      "paused": true,
+      "duration": 3
+    },
+    {
+      "src": "assets/media-28.mp4",
+      "played": true,
+      "paused": true,
+      "duration": 10.25
+    },
+    {
+      "src": "assets/media-30.mp4",
+      "played": true,
+      "paused": true,
+      "duration": 8.875
+    },
+    {
+      "src": "assets/media-32.mp4",
+      "played": true,
+      "paused": true,
+      "duration": 12.916667
+    },
+    {
+      "src": "assets/media-34.mp4",
+      "played": true,
+      "paused": true,
+      "duration": 12
+    },
+    {
+      "src": "assets/media-36.mp4",
+      "played": true,
+      "paused": true,
+      "duration": 4
+    },
+    {
+      "src": "assets/media-38.mp4",
+      "played": true,
+      "paused": true,
+      "duration": 21.666667
+    },
+    {
+      "src": "assets/media-40.mp4",
+      "played": true,
+      "paused": true,
+      "duration": 8.708333
+    }
+  ],
+  "broken_local_anchors": [],
+  "has_prices": false,
+  "touch_swipe": {
+    "before": 0,
+    "after": 324
+  }
+}
