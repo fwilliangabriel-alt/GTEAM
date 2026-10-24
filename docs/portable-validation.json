@@ -1,0 +1,25 @@
+{
+  "with_js": {
+    "heroLoaded": true,
+    "photoSquare": true,
+    "cssApplied": true,
+    "overflow": false,
+    "externalReferences": 0,
+    "videoPlayedOffline": true,
+    "jsErrors": [],
+    "networkRequests": [
+      "http://127.0.0.1:8003/index.html"
+    ]
+  },
+  "without_js": {
+    "heroLoaded": true,
+    "photoSquare": true,
+    "cssApplied": true,
+    "overflow": false,
+    "externalReferences": 0,
+    "jsErrors": [],
+    "networkRequests": [
+      "http://127.0.0.1:8003/index.html"
+    ]
+  }
+}

@@ -1,5 +1,7 @@
 # GTEAM — site da consultoria
 
+**Para conferir no celular sem pastas separadas, baixe `ABRIR-NO-CELULAR.html` (47,2 MB).** Ele incorpora todos os recursos. O `index.html` depende de CSS, JavaScript e mídias da mesma pasta e é destinado à hospedagem. [Veja as instruções de abertura no iPhone e os limites do visualizador](docs/ABRIR-NO-IPHONE.md).
+
 A versão atual prioriza o celular: foto de abertura quadrada, retrato do fundador em cores e cards verticais de planos inspirados no PDF. Confira [a revisão mobile e as capturas atualizadas](docs/REVISAO-MOBILE.md).
 
 Projeto estático: HTML, CSS, JavaScript e mídias locais. Não exige Node, framework, build, conta externa ou instalação de dependências para funcionar.
